@@ -68,7 +68,7 @@ card_mm_field.addEventListener("input", () => {
     }
     else if (Number.parseInt(card_mm_field.value) > 12 || !card_mm_field.value.match(/\d{2}/g)) {
         card_mm_field.classList.add("error");
-        errorMessages[2].textContent = "wrong format";g
+        errorMessages[2].textContent = "wrong format";
 
     }
     else {

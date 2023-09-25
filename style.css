@@ -14,7 +14,7 @@ main{
     display: flex;
     flex-flow: row;
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     justify-content: flex-end;
     align-items: center;
@@ -76,7 +76,7 @@ main{
 form{
     position: relative;
     width: 20rem;
-    margin-right: 5rem;
+    margin-right: 5%;
 }
 form p{
     color: hsl(0, 100%, 66%);
@@ -98,6 +98,7 @@ form > div input{
 .exp-date{
     display: grid;
     grid-template-columns: 50% 50%;
+    gap: 5px;
 }
 form > div p:nth-child(6){
     position: absolute;
@@ -106,7 +107,7 @@ form > div p:nth-child(6){
 form > div p:nth-child(7){
     position: absolute;
     bottom: 12%;
-    right: 20%;
+    right: 10%;
 }
 form > input{
     border: 1px solid hsl(270, 3%, 87%);
@@ -137,7 +138,7 @@ label{
     flex-flow: column;
     align-items: center;
     gap: 1rem;
-    margin-left: 60%;
+    margin-right: 5%;
 }
 .success p:nth-child(2){
     font-size: 1.5rem;
@@ -223,7 +224,7 @@ input:focus{
     }
     form{
         margin: 0 0 5rem 0;
-        width: 90vw;
+        width: 18rem;
     }
     .success{
         margin: 0 0 5rem 0;
